@@ -1,0 +1,47 @@
+a{
+background-color: #97FAFA;
+display: inline-table;
+flex-wrap: wrap;
+justify-content: baseline;
+}
+a:link{
+    color: #0000ff;
+}
+a:visited{
+    color: #ff0000;
+}
+.header{
+background-color: #ED8080;
+}
+html{
+    background-color: #778899;
+}
+h2{
+   font-style: oblique;
+   text-decoration-style: solid;
+}
+.origami{
+    padding: 30px;
+    margin:25px;
+    border-radius: 20px;
+    font-family: 'Times New Roman';
+    position: relative;
+}
+.origami p{
+    position: absolute;
+    top:50%;
+    margin-left: 30px;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.origami :hover img{
+    opacity:0.33;
+    transform: scale(1.2);
+    position: relative;
+}
+body{
+    margin: 0px;
+}
+.origami:hover p{
+    opacity:1;
+}
